@@ -13,7 +13,7 @@ df -h && sleep 3
 touch /etc/mi.yandex.disk.sh
 echo sleep 60 >> /etc/mi.yandex.disk.sh
 echo mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/ >> /etc/mi.yandex.disk.sh
-echo echo mi.yandex.disk OK  >> /etc/mi.yandex.disk.sh
+echo echo my.yandex.disk OK  >> /etc/mi.yandex.disk.sh
 chmod 775 /etc/mi.yandex.disk.sh
 echo sh /etc/mi.yandex.disk.sh >> /etc/rc.local
 echo exit 0 >> /etc/rc.local
