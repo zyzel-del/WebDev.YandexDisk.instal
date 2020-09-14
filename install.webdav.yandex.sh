@@ -19,4 +19,5 @@ echo sh /etc/mi.yandex.disk.sh >> /etc/rc.local
 echo exit 0 >> /etc/rc.local
 #sh /etc/mi.yandex.disk.sh
 mount -t davfs https://webdav.yandex.ru /mnt/yandex.disk/ && df -h
+echo Done
 #exit
